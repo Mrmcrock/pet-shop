@@ -1,0 +1,40 @@
+.background1{
+	background-color: #f8f3e9;
+	display: flex;
+	justify-content: center;
+}
+.image1, .image2, .image3{
+	margin-right: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.background2{
+	background-color: #310000;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+}
+.widget1, .widget2, .widget3, .widget4{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.friendly-h4{
+	margin-top: -100px;
+}
+.friendly-h4 a{
+	text-decoration: none;
+	color: #bffb05;
+}
+.friendly-p{
+	width: 250px;
+	color: white;
+}
+.background3{
+	background-color: #FFAD00;
+	display: flex;
+	justify-content: center;
+	padding: 20px 0px;
+}
+.background3 p{
+	font-size: 0.9em;
+}
