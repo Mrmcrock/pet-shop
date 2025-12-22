@@ -1,0 +1,32 @@
+.main-content{
+	display: flex;
+	justify-content: center;
+}
+.main-content-container{
+	display: flex;
+	/**border: 2px solid red ;**/
+}
+.column1, .column2{
+	margin-right: 55px;
+}
+.card1 ,.card2, .card3, .card4, .card5, .card6{
+	display: flex;
+	/**width: 500px;**/
+	align-items: flex-start;
+}
+.description{
+	width: 100px;
+	padding-left: 10px;
+}
+.description h4{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-transform: capitalize;
+	font-size: 18px;
+	color: #2b2b2b;
+}
+.description p{
+	color: #757575;
+	line-height: 30px;
+	margin-top: 0px;
+}
