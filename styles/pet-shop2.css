@@ -1,3 +1,6 @@
+body{
+	margin: 0px;
+}
 .main-content{
 	display: flex;
 	justify-content: center;
@@ -9,7 +12,7 @@
 .column1, .column2{
 	margin-right: 55px;
 }
-.column1 .widget1, .column1 .widget2, .column1 .widget3{
+.column1 .group1, .column1 .group2, .column1 .group3{
 	display: flex;
 	align-content: space-between;
 }
@@ -18,10 +21,10 @@
 	/**width: 500px;**/
 	align-items: flex-start;
 }
- .widget1 .card1, .widget2 .card3, .widget3 .card5{
+ .group1 .card1, .group2 .card3, .group3 .card5{
 	margin-right: 60px;
 }
-.widget2{
+.group2{
 	margin-bottom: 20px;
 	margin-top: 20px;
 }
