@@ -12,12 +12,23 @@ body{
 	justify-content: center;
 	align-items: center;
 }
-.1background{
-	background-color: black;
-	height: 200px;
+.content22{
+	display: flex;
+	justify-content: center;
 }
-.2background{
-	background-color: #310000;
-	height: 50px;
+.content1-content1, .content1-content2, .content2-content1, .content2-content2{
+	display: flex;
 }
-.3background{}
+.p p, .p a{
+	width: 200px;
+	line-height: 1.5em;
+	color: #7a6666;
+}
+.content3{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.form1{
+	display: flex;
+}
