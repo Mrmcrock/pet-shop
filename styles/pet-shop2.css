@@ -6,8 +6,34 @@ body{
 	justify-content: center;
 }
 .main-content-container{
-	display: flex;
+	
 	/**border: 2px solid red ;**/
+}
+form{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 90px;
+}
+.content-container{
+	display: flex;
+}
+.search-bar{
+	margin-bottom: 0px;
+    background: #FFAD00;
+	padding: 5px 20px 5px 5px;
+}
+button{
+	background-color: #FFAD00;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.block{
+	display: flex;
+	padding-top: 10px;
+	margin-bottom: 5px;
+	color: white;
 }
 .column1, .column2{
 	margin-right: 55px;
