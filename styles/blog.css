@@ -6,6 +6,7 @@ body{
 	justify-content: center;
 }
 .main-content-container{
+	display: flex;
 	width: 800px;
 }
 .header-container{
@@ -32,4 +33,39 @@ h2{
 p{
 	color:#828181;
 	padding-left: 30px;
+}
+p a{
+	color: #828181;
+}
+p a:hover{
+	color:  #FFAD00;
+}
+h2{
+	color :  #FFAD00;
+	display: flex;
+	justify-content: center;
+}
+.dropdown{
+	position: relative;
+}
+.dropdown .year-button{
+	cursor: pointer;
+}
+.dropdown-content{
+	position: absolute;
+	display: none;
+	z-index: 100;
+	background: white;
+	color: grey;
+	padding: 30px 20px;
+}
+.dropdown-content div:hover{
+	color: #FFAD00;
+	cursor: pointer;
+}
+ .dropdown:hover .dropdown-content{
+	display: block;
+}
+.num{
+	color: #FFAD00;
 }
