@@ -56,7 +56,7 @@ h2{
 	display: none;
 	z-index: 100;
 	background: white;
-	color: grey;
+	color: #747575;
 	padding: 30px 20px;
 }
 .dropdown-content div:hover{
