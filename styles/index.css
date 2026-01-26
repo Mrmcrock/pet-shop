@@ -15,20 +15,83 @@ body{
 .content22{
 	display: flex;
 	justify-content: center;
+	align-items: flex-start;
 }
 .content1-content1, .content1-content2, .content2-content1, .content2-content2{
 	display: flex;
+}
+.content2{
+	padding-left: 20px;
+	padding-right: 20px;
 }
 .p p, .p a{
 	width: 200px;
 	line-height: 1.5em;
 	color: #7a6666;
 }
-.content3{
+/*.content3{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}*/
+.search-bar{
+	margin-bottom: 0px;
+    background: #FFAD00;
+	padding: 5px 20px 5px 5px;
 }
-.form1{
+button{
+	background-color: #FFAD00;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.block{
 	display: flex;
+	padding-top: 10px;
+	margin-bottom: 5px;
+	color: white;
+}
+.pet-needfuls{
+	margin-top: 30px;
+	margin-bottom: ;
+}
+.needfuls-headings{
+	display: flex;
+}
+.needfuls-headings h3{
+	background: #ff9d13;
+	padding: 10px 15px;
+}
+.needfuls-headings :first-child{
+	background-color: #f5ce64;
+}
+.needfuls-headings :last-child{
+	margin-left: 20px;
+}
+.needfuls-content{
+	/*background-color: #f5ce64;
+	padding: 15px;*/
+	border: 20px solid #f5ce64;
+}
+.needfuls-content div{
+	display: flex;
+	justify-content: space-between;
+	background-color:  /*#ffad00*/#f5c645;
+	color: #a1a1a1;
+	padding: 6px 10px;
+	font-size: 18px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	border-radius: 2px;
+}
+.needfuls-content div:hover{
+	cursor: pointer;
+	color: #ff9c12;
+}
+.needfuls-content div .see{
+	color: #ff9c12;
+}
+.needfuls-content div .see:hover{
+	cursor: pointer;
+	color: #a1a1a1;
 }
