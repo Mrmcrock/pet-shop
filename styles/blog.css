@@ -7,7 +7,13 @@ body{
 }
 .main-content-container{
 	display: flex;
-	width: 800px;
+	width: 950px;
+}
+.content-container{
+	width:  65%;
+}
+.column2{
+	width: 35%;
 }
 .header-container{
 	display: flex;
@@ -42,9 +48,23 @@ p a:hover{
 }
 h2{
 	color :  #FFAD00;
-	display: flex;
-	justify-content: center;
+	/**display: flex;
+	justify-content: center;**/
+	
 }
+.archives-container{
+	margin-left: 20px;
+	border: 1px solid grey;
+	border-radius: 10px;
+	padding: 25px;
+
+}
+.archives-container h2{
+   padding-left: 0px;
+   color: black;
+   text-transform:  capitalize;
+}
+
 .dropdown{
 	position: relative;
 }
@@ -56,7 +76,7 @@ h2{
 	display: none;
 	z-index: 100;
 	background: white;
-	color: grey;
+	color: #747575;
 	padding: 30px 20px;
 }
 .dropdown-content div:hover{
@@ -68,4 +88,11 @@ h2{
 }
 .num{
 	color: #FFAD00;
+}
+.year-button{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 25px;
+	color: #FFAD00;
+	border-top: 1px solid grey
 }
