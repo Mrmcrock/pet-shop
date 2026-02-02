@@ -1,0 +1,140 @@
+body{
+	margin: 0px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.main-content{
+	display: flex;
+	justify-content: center;
+}
+.main-content-container{
+	display: flex;
+	width: 950px;
+}
+.container{
+	
+}
+.column{
+	width: 65%;
+	margin-right: 50px;
+}
+.content1{
+	margin-top: 20px;
+}
+.content1 h3, .content2 h3, .content3 h3, .content4 h3{
+	color: #ff9c12;
+}
+.content1 h3:hover, .content2 h3:hover, .content3 h3:hover, .content4 h3:hover{
+	cursor: pointer;
+	color: #5e5d5d;
+}
+.p-content{
+	/*width: 45%;*/
+}
+.p-content p{
+	color: #808080;
+	line-height: 20px;
+}
+.p-content a{
+	color: #808080;
+}
+.p-content a:hover{
+	color: #ff9c12;
+}
+.d-p p{
+	color: #808080;
+}
+.column2{
+	width: 35%;
+}
+.content-1, .content-2, .content-3{
+	display: flex;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.p-content2{
+	width: /*30%;*/
+}
+.content-1 h4, .content-2 h4, .content-3 h4{
+	color: #1a1919;
+}
+.content-1 h4:hover, .content-2 h4:hover, .content-3 h4:hover{
+	color: #808080;
+	cursor: pointer;
+}
+.p-content2 p{
+	color: #808080;
+	line-height: 35px;
+}
+.p-content2 a{
+	color: black;
+	text-decoration: none;
+}
+.p-content2 a:hover{
+	color: #808080;
+}
+.search-bar{
+	margin-bottom: 0px;
+    background: #FFAD00;
+	padding: 5px 20px 5px 5px;
+}
+button{
+	background-color: #FFAD00;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.block{
+	display: flex;
+	padding-top: 10px;
+	margin-bottom: 5px;
+	color: white;
+}
+.pet-needfuls{
+	margin-top: 30px;
+	margin-bottom: ;
+}
+.needfuls-headings{
+	display: flex;
+}
+.needfuls-headings h3{
+	background: #ff9d13;
+	padding: 10px 15px;
+}
+.needfuls-headings :first-child{
+	background-color: #f5ce64;
+}
+.needfuls-headings :last-child{
+	margin-left: 20px;
+}
+.needfuls-content{
+	/*background-color: #f5ce64;
+	padding: 15px;*/
+	border: 20px solid #f5ce64;
+	margin-bottom: 20px;
+}
+.needfuls-content div{
+	display: flex;
+	justify-content: space-between;
+	background-color:  /*#ffad00*/#f5c645;
+	color: #a1a1a1;
+	padding: 6px 10px;
+	font-size: 18px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	border-radius: 2px;
+}
+.needfuls-content div:hover{
+	cursor: pointer;
+	color: #ff9c12;
+}
+.needfuls-content div .see{
+	color: #ff9c12;
+}
+.needfuls-content div .see:hover{
+	cursor: pointer;
+	color: #a1a1a1;
+}
