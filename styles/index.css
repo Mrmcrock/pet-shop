@@ -6,16 +6,25 @@ body{
   padding: 0;
   font-family: sans-serif;
 }
+.banner-image {
+	background-image: url("../images/dog.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 606px;
+}
 
-.img-container{
+/* .img-container{
 	display: flex; 
 	justify-content: center;
 	align-items: center;
-}
+} */
 .content22{
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
+}
+.content3 {
+	width: 25%;
 }
 .content1-content1, .content1-content2, .content2-content1, .content2-content2{
 	display: flex;
@@ -53,21 +62,30 @@ button{
 }
 .pet-needfuls{
 	margin-top: 30px;
-	margin-bottom: ;
+	/* margin-bottom: ; */
 }
 .needfuls-headings{
 	display: flex;
 }
 .needfuls-headings h3{
-	background: #ff9d13;
+	/* background: #ff9d13; */
+	background-image: url("../images/bg-tab2.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
 	padding: 10px 15px;
+	font-size: 15px;
 }
 .needfuls-headings :first-child{
-	background-color: #f5ce64;
+	/* background-color: #f5ce64; */
+	background-image: url("../images/bg-tab1.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
 }
-.needfuls-headings :last-child{
+/* .needfuls-headings :last-child{
 	margin-left: 20px;
-}
+} */
 .needfuls-content{
 	/*background-color: #f5ce64;
 	padding: 15px;*/
@@ -79,7 +97,7 @@ button{
 	background-color:  /*#ffad00*/#f5c645;
 	color: #a1a1a1;
 	padding: 6px 10px;
-	font-size: 18px;
+	font-size: 14px;
 	margin-top: 1px;
 	margin-bottom: 1px;
 	border-radius: 2px;
