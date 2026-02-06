@@ -11,7 +11,7 @@ body{
 	justify-content: center;
 }
 .main-content-container{
-	width: 750px;
+	width: 950px;
 	display: flex;
 	gap: 20px;
 }
@@ -24,24 +24,32 @@ body{
 .title a:hover{
 	color: #ffad00;
 }
-.inner-container{
-	display: flex;
-	align-items: center;
-}
-.column1{
-	flex: 1;
-}
-.column1-1 div, .column1-2 div{
-	padding: 20px 10px;
-}
-.column1-1 .h3, .column1-2 .h3{
+.inner{
 	display: flex;
 	justify-content: center;
+	/*background: black;*/
+	align-items: center;
+	padding: 40px;
+}
+.inner-container{
+	/*display: flex;
+	align-items: center;
+	background: grey;*/
+	padding: 10px;
+}
+.widget1, .widget2, .widget3{
+	display: flex;
+}
+.widget1 div, .widget2 div, .widget3 div{
+	padding: 30px 10px;
+}
+.widget1 h3, .widget2 h3, .widget3 h3{
 	background-color: #ffad00;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	align-items: center;
 }
-.column1-1 h3, .column1-2 h3{
+.widget1 h3, .widget2 h3, .widget3 h3{
 	color: white;
 }
 .p-content{
@@ -77,4 +85,7 @@ body{
 .column2-content{
 	margin-top: 20px;
 	margin-bottom: 50px;
+}
+.column2-content a{
+	text-decoration: none;
 }
