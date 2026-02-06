@@ -15,7 +15,15 @@ body{
 	display: flex;
 	gap: 20px;
 }
-
+.title p{
+	color: #7a6666;
+}
+.title a{
+	color: #7a6666;
+}
+.title a:hover{
+	color: #ffad00;
+}
 .inner-container{
 	display: flex;
 	align-items: center;
