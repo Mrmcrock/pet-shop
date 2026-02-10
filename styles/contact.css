@@ -1,3 +1,7 @@
+@font-face {
+	font-family: "Myriad Pro";
+	src: url("../font-awesome/fonts/MYRIADPRO-REGULAR.OTF");
+}
 body{
 	margin: 0px;
 }
@@ -12,10 +16,12 @@ body{
 .column1 h2{
 	font-size: 30px;
 	margin: 0px;
+	font-family: "Myriad Pro";
 }
 .column1 p, .column1 p a{
 	color:  #787878;
 	line-height: 25px;
+	font-family: "Myriad Pro";
 }
 .column1 a:hover{
 	color: #ffad00;
