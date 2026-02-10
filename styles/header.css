@@ -1,3 +1,8 @@
+@font-face {
+	font-family: "Myriad Pro";
+	src: url("../font-awesome/fonts/MYRIADPRO-REGULAR.OTF");
+}
+
 .header{
 	background: #FFAD00;
 	display: flex; 
@@ -20,9 +25,12 @@
 }
 
 .menus a {
-  color: black;
+  color: #2c1d00;
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: capitalize;
+  font-family: "Myriad Pro";
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .menus a:hover {
