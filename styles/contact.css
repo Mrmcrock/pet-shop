@@ -1,0 +1,43 @@
+body{
+	margin: 0px;
+}
+.main-container{
+	display: flex;
+	justify-content: center;
+}
+.content-container{
+	/**display: flex;**/
+	width: 900px;
+}
+.column1 h2{
+	font-size: 30px;
+	margin: 0px;
+}
+.column1 p, .column1 p a{
+	color:  #787878;
+	line-height: 25px;
+}
+.column1 a:hover{
+	color: #ffad00;
+}
+#contactinfo{
+	width: 640px;
+	margin-top: 75px;
+}
+#contactinfo h3{
+	font-size: 25px;
+	color : #ffad00;
+	text-transform: capitalize;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 0px;
+}
+#contactinfo span , #contactinfo span a{
+	color: #787878;
+}
+#contactinfo a:hover{
+	color: #ffad00;
+}
+.store-container{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
