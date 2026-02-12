@@ -43,19 +43,26 @@ body{
 .widget1 div, .widget2 div, .widget3 div{
 	padding: 30px 10px;
 }
-.widget1 h3, .widget2 h3, .widget3 h3{
-	background-color: #ffad00;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	align-items: center;
+.widget1 div:first-child, .widget2 div:first-child, .widget3 div:first-child{
+	margin-right: 35px;
 }
 .widget1 h3, .widget2 h3, .widget3 h3{
+	background-color: #ffad00;
+	padding-top: 6px;
+	padding-bottom:6px;
+	text-align: center;
 	color: white;
+	width: 250px;
+	margin-bottom: 0px;
 }
 .p-content{
 	width: 80%;
 }
-.p-content p, .column2 .p{
+.p-content p{
+	line-height: 25px;
+	margin-top: 0px;
+}
+.p-content p, .column2 span{
 	color: #7a6666;
 }
 .p-content a{
@@ -75,7 +82,7 @@ body{
 	width: 40%;
 	border-radius: 10px;
 }
-.column2 .p:hover{
+.column2 span:hover{
 	cursor: pointer;
 	color: #ff9c12;
 }
