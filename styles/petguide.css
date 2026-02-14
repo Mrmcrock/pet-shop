@@ -41,7 +41,11 @@ body{
 	display: flex;
 }
 .widget1 div, .widget2 div, .widget3 div{
-	padding: 30px 10px;
+	padding: 0px 10px 30px 10px;
+}
+.widget3 div{
+	padding-bottom: 0px;
+	padding-top: 0px;
 }
 .widget1 div:first-child, .widget2 div:first-child, .widget3 div:first-child{
 	margin-right: 35px;
@@ -95,4 +99,32 @@ body{
 }
 .column2-content a{
 	text-decoration: none;
+}
+.hr{
+	height: 20px;
+	width: 200px;
+	border: 2px dotted grey;
+}
+.paging{
+	display: flex;
+	justify-content: center;
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+.paging .one, .paging .two, .paging .three, .paging .four, .paging .next{
+	background-color: #bababa;
+	color: white;
+	font-size: 20px;
+	margin-right: 20px;
+	padding: 10px;
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.paging .active{
+	background-color: #525252;
+}
+.paging .one:hover, .paging .two:hover, .paging .three:hover, .paging .four:hover, .paging .next:hover{
+	cursor: pointer;
+	color: black;
 }
