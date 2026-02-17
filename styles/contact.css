@@ -61,12 +61,16 @@ body{
    margin-bottom: 0px;
 }
 .column2 .socail-media-handles div{
-	display: flex;
-	align-items: center;
 	border-bottom: 1px solid grey;
 	padding-bottom:  20px;
 	padding-top: 10px;
 }
+.column2 .socail-media-handles div a{
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+}
+
 .column2 span{
 	font-size: 30px;
 	color: #787878;
@@ -77,4 +81,8 @@ body{
 	padding-right: 35px;
 	
 }
-.co
+.column2 .socail-media-handles div:hover i , .column2 .socail-media-handles div:hover span{
+	color: black;
+	/**text-decoration: underline;**/
+}
+.column 
